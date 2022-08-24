@@ -36,9 +36,6 @@ const App = () => {
       if(postId === post.id){
         return {...post, likes: post.likes + 1}
       }
-      else{
-        return post;
-      }
     })
     setPosts(updatedPosts);
   };
